@@ -18,9 +18,17 @@ def start_menu() -> None:
 
 def crypto(string: str, shift: int) -> str:
     '''Функция, которая реализует аглоритм шифра Виженера'''    
+    
     print("Начало алгоритма...")
+    result = []
+    for char in string:
+        base = ord('a')
+        # Вычисляем новую позицию символа с учетом сдвига и закольцованности алфавита
+        new_char = chr((ord(char) - base + shift) % 26 + base)
+        result.append(new_char)
     print("Алгоритм завершил работу")
-    return 'crypro_string'
+    
+    return ''.join(result)
 
 def input_params() -> tuple[str, int]:
     '''Функция, которая принимает исходные данные'''
@@ -44,5 +52,6 @@ def generating_params() -> tuple[str, int]:
 
 def result(string: str) -> None:
     '''Функция, которая вывод результат'''
-    string[0].upper()
+    
+    string = string.capitalize()
     print(string)
