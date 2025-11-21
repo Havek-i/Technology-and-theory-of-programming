@@ -1,3 +1,7 @@
+import random
+import string
+import helper_func as hf
+
 def start_menu() -> None:
     '''Функция, которая отображет меню'''
 
@@ -15,24 +19,30 @@ def start_menu() -> None:
 def crypto(string: str, shift: int) -> str:
     '''Функция, которая реализует аглоритм шифра Виженера'''    
     print("Начало алгоритма...")
-    print("Алгоритм ")
+    print("Алгоритм завершил работу")
     return 'crypro_string'
 
 def input_params() -> tuple[str, int]:
     '''Функция, которая принимает исходные данные'''
     
-    input("Введите данные: ")
+    string, shift = input("Введите данные: ").strip().split(' ')
+    string, shift = hf.normalize_input_data(string, shift)
     print("Данные были введены!")
-    return ('string', 1)
+    return (string, shift)
     
-
-def generating_params() -> tuple[str, str]:
+def generating_params() -> tuple[str, int]:
     '''Функция, которая генерирует значения случайным образом'''
 
-    return ('string', 2)
+    length = random.randrange(1, 20)
+    shift = random.randrange(1, 20)
+
+    random_string = ''.join(random.choices(string.ascii_uppercase, k=length))
+
+    print((random_string, shift))
+    return (random_string, shift)
     
 
 def result(string: str) -> None:
     '''Функция, которая вывод результат'''
-    
-    print('crypto_string')
+    string[0].upper()
+    print(string)

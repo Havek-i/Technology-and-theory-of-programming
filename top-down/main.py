@@ -1,5 +1,5 @@
 import general_func as gf
-
+import helper_func as hf
 
 def main():
     global data
@@ -20,8 +20,7 @@ def main():
                 \t2. Случайная генерация
                 \t============================
                 '''
-                print(submenu)
-                sub_item = int(input("\t\t\tВыберите пункт: ").strip())
+                sub_item = int(hf.submenu(submenu=submenu))
                 if sub_item == 1:
                     data = gf.input_params()
                 elif sub_item == 2:
