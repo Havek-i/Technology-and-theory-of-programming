@@ -1,14 +1,21 @@
-def normalize_input_data(string: str, shift: str):
+def normalize_input_data(string: str, shift: str) -> tuple[str, int]:
     '''Функция, которая обрабатывает входные данные'''
     
-    return ('string', 1)
+    string = string.lower()
+    shift = int(shift)
+    
+    return (string, shift)
 
-def submenu():
+def submenu(submenu: str = None) -> int:
     '''Функция, которая показывает подменю и обрабатывает выбранный пункт'''
     
-    print('''
+    if submenu is None:
+        submenu = '''
         \t============================
         \t1. Самостояльный ввод данных
         \t2. Случайная генерация
         \t============================
-        ''')
+        '''
+
+    print(submenu)
+    return int(input("\t\tВыберите пункт: "))
