@@ -1,0 +1,127 @@
+_client_ 2025-11-27 11:23:23,508 INFO Выбор пункта меню
+_client_ 2025-11-27 11:23:26,400 INFO Клиент выбрал пункт: 1
+_client_ 2025-11-27 11:23:26,400 INFO Вызов подменю пункта 1
+_client_ 2025-11-27 11:23:27,806 INFO Клиент выбрал подпункт: 1
+_client_ 2025-11-27 11:23:32,107 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:54,881 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '& C:/Users/ivava/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/ivava/Desktop/Technology and theory of programming/test.py"'
+_client_ 2025-11-27 11:26:54,891 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:57,945 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:26:57,948 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:58,498 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:26:58,499 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:58,684 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:26:58,685 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:58,856 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:26:58,857 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:59,015 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:26:59,016 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:59,171 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:26:59,175 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:59,298 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:26:59,299 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:59,437 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:26:59,438 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:59,587 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:26:59,592 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:59,725 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:26:59,727 INFO Выбор пункта меню
+_client_ 2025-11-27 11:26:59,871 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:26:59,873 INFO Выбор пункта меню
+_client_ 2025-11-27 11:27:00,020 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:27:00,021 INFO Выбор пункта меню
+_client_ 2025-11-27 11:27:00,147 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:27:00,148 INFO Выбор пункта меню
+_client_ 2025-11-27 11:27:05,303 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:27:05,306 INFO Выбор пункта меню
+_client_ 2025-11-27 11:27:05,935 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 18, in main
+    item = int(input('Введите пункт меню: ').strip())
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+_client_ 2025-11-27 11:27:05,936 INFO Выбор пункта меню
+_client_ 2025-11-27 11:33:29,833 INFO Выбор пункта меню
+_client_ 2025-11-27 11:33:31,562 INFO Клиент выбрал пункт: 1
+_client_ 2025-11-27 11:33:31,562 INFO Вызов подменю пункта 1
+_client_ 2025-11-27 11:33:32,828 INFO Клиент выбрал подпункт: 1
+_client_ 2025-11-27 11:33:35,653 ERROR Ошибка при обработке данных | вызове функции | возврате функции
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\main.py", line 39, in main
+    raise Warning
+Warning
+_client_ 2025-11-27 11:33:35,656 INFO Выбор пункта меню

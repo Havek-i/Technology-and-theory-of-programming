@@ -1,0 +1,42 @@
+_server_ 2025-11-27 11:23:23,507 INFO Вызов меню
+_server_ 2025-11-27 11:23:26,400 INFO Вызов подменю
+_server_ 2025-11-27 11:23:27,806 INFO Ручной ввод параметров
+_server_ 2025-11-27 11:23:32,098 ERROR Ошибка при введении данных: not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\general_func.py", line 69, in input_params
+    string, shift = input("Введите данные: ").strip().split(' ')
+    ^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+_server_ 2025-11-27 11:23:32,107 INFO Вызов меню
+_server_ 2025-11-27 11:26:54,890 INFO Вызов меню
+_server_ 2025-11-27 11:26:57,947 INFO Вызов меню
+_server_ 2025-11-27 11:26:58,499 INFO Вызов меню
+_server_ 2025-11-27 11:26:58,684 INFO Вызов меню
+_server_ 2025-11-27 11:26:58,856 INFO Вызов меню
+_server_ 2025-11-27 11:26:59,015 INFO Вызов меню
+_server_ 2025-11-27 11:26:59,173 INFO Вызов меню
+_server_ 2025-11-27 11:26:59,299 INFO Вызов меню
+_server_ 2025-11-27 11:26:59,437 INFO Вызов меню
+_server_ 2025-11-27 11:26:59,590 INFO Вызов меню
+_server_ 2025-11-27 11:26:59,726 INFO Вызов меню
+_server_ 2025-11-27 11:26:59,872 INFO Вызов меню
+_server_ 2025-11-27 11:27:00,021 INFO Вызов меню
+_server_ 2025-11-27 11:27:00,148 INFO Вызов меню
+_server_ 2025-11-27 11:27:05,305 INFO Вызов меню
+_server_ 2025-11-27 11:27:05,936 INFO Вызов меню
+_server_ 2025-11-27 11:33:29,833 INFO Вызов меню
+_server_ 2025-11-27 11:33:31,563 INFO Вызов подменю
+_server_ 2025-11-27 11:33:32,828 INFO Ручной ввод параметров
+_server_ 2025-11-27 11:33:35,637 INFO Нормализация входных данных
+_server_ 2025-11-27 11:33:35,637 ERROR Некорректное значение
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\helper_func.py", line 23, in normalize_input_data
+    shift = int(shift)
+ValueError: invalid literal for int() with base 10: 'd'
+_server_ 2025-11-27 11:33:35,649 ERROR Ошибка при введении данных: cannot unpack non-iterable ValueError object
+Traceback (most recent call last):
+  File "c:\Users\ivava\Desktop\Technology and theory of programming\exception-v1\general_func.py", line 70, in input_params
+    string, shift = hf.normalize_input_data(string, shift) #Использование вспомогательной функции
+    ^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable ValueError object
+_server_ 2025-11-27 11:33:35,655 INFO Вызов меню
