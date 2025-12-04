@@ -59,15 +59,18 @@ def input_params() -> tuple[str, int]:
         tuple : [str, int]
             Кортеж, состоящий из введённых данных Пользователем: строка и величина сдвига
     '''
-    server_logger.info('Ручной ввод параметров')
+    try:      
+        server_logger.info('Ручной ввод параметров')
 
-    string, shift = input("Введите данные: ").strip().split(' ')
-    string, shift = hf.normalize_input_data(string, shift) #Использование вспомогательной функции
+        string, shift = input("Введите данные: ").strip().split(' ')
+        string, shift = hf.normalize_input_data(string, shift) #Использование вспомогательной функции
 
-    server_logger.info('Данные успешно введены')
+        server_logger.info('Данные успешно введены')
+        print("Данные были введены!")
+        return (string, shift)
+    except:
+        raise Exception("Ошибка при введении данных")
 
-    print("Данные были введены!")
-    return (string, shift)
     
 
 def generating_params() -> tuple[str, int]:

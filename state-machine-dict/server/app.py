@@ -8,7 +8,7 @@ class AppState(Enum):
     COMPUTING = 'computing'
     RESULT = 'result'
     ERROR = 'error'
-    DISTRUCT = 'disctruct'
+    destructor = 'destructor'
 
 class Transition:
     '''Переходы между состояниями системы'''
@@ -18,50 +18,50 @@ class Transition:
             AppState.INIT: {
                 'initialization': None,
                 'input': AppState.INPUT,
-                'computing': AppState.ERROR,
-                'result': AppState.ERROR,
-                'error': AppState.DISTRUCT,
-                'disctruct': AppState.DISTRUCT
+                'computing': None,
+                'result': None,
+                'error': None,
+                'destructor': AppState.destructor
             },
             AppState.INPUT: {
                 'initialization': None,
-                'input': None,
+                'input': AppState.INPUT,
                 'computing': AppState.COMPUTING,
-                'result': AppState.ERROR,
+                'result': None,
                 'error': AppState.ERROR,
-                'disctruct': AppState.DISTRUCT
+                'destructor': AppState.destructor
             },
             AppState.COMPUTING: {
                 'initialization': None,
                 'input': AppState.INPUT,
-                'computing': None,
+                'computing': AppState.COMPUTING,
                 'result': AppState.RESULT,
                 'error': AppState.ERROR,
-                'disctruct': AppState.DISTRUCT
+                'destructor': AppState.destructor
             },
             AppState.RESULT: {
                 'initialization': None,
                 'input': AppState.INPUT,
                 'computing': AppState.COMPUTING,
-                'result': None,
+                'result': AppState.RESULT,
                 'error': AppState.ERROR,
-                'disctruct': AppState.DISTRUCT
+                'destructor': AppState.destructor
             },
             AppState.ERROR: {
-                'initialization': AppState.DISTRUCT,
-                'input': AppState.INIT,
-                'computing': AppState.INIT,
-                'result': AppState.INIT,
+                'initialization': AppState.INIT,
+                'input': None,
+                'computing': None,
+                'result': None,
                 'error': None,
-                'disctruct': None
+                'destructor': None
             },
-            AppState.DISTRUCT: {
+            AppState.destructor: {
                 'initialization': None,
                 'input': None,
                 'computing': None,
                 'result': None,
                 'error': None,
-                'disctruct': None
+                'destructor': None
             }
         }
 

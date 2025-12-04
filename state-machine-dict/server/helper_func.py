@@ -50,4 +50,4 @@ def submenu(submenu: str = None) -> int:
         '''
 
     print(submenu)
-    return int(input("\t\tВыберите пункт: "))
+    return input("\t\tВыберите пункт: ")
