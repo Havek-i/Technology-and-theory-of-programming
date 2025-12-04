@@ -78,7 +78,7 @@ class StateMachine:
         try:
             if self._data == None: raise Exception("Нет исходных данный.")
 
-            self._result = gf.crypto(string=self._data(0), shift=self._data(1))
+            self._result = gf.crypto(string=self._data[0], shift=self._data[1])
         except Exception as e:
             self._except(state=self.state.value, exception=e)
 

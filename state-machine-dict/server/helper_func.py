@@ -25,7 +25,7 @@ def normalize_input_data(string: str, shift: str) -> tuple[str, int]:
 
     return (string, shift)
 
-def submenu(submenu: str = None) -> int:
+def submenu() -> int:
     '''Функция, которая показывает подменю и обрабатывает выбранный пункт
     
     Arguments
@@ -41,13 +41,13 @@ def submenu(submenu: str = None) -> int:
     
     server_logger.info("Вызов подменю")
 
-    if submenu is None:
-        submenu = '''
-        \t============================
-        \t1. Самостояльный ввод данных
-        \t2. Случайная генерация
-        \t============================
-        '''
+
+    submenu = '''
+    \t============================
+    \t1. Самостояльный ввод данных
+    \t2. Случайная генерация
+    \t============================
+    '''
 
     print(submenu)
     return input("\t\tВыберите пункт: ")
