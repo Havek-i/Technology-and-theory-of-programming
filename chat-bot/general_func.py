@@ -1,4 +1,3 @@
-# general_func.py (адаптированный для бота)
 import random
 import string
 import helper_func as hf

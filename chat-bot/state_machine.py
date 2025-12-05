@@ -1,9 +1,7 @@
-# state_machine.py
 from app import AppState, Transition
 from log import server_logger
-from typing import Optional, Dict, Any
+from typing import Optional
 import general_func as gf
-import helper_func as hf
 
 class StateMachine:
     def __init__(self):

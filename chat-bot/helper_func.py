@@ -1,4 +1,3 @@
-# helper_func.py (без изменений, можно оставить как есть)
 from log import server_logger
 
 def normalize_input_data(string: str, shift: str) -> tuple[str, int]:
