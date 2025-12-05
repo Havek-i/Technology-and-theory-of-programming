@@ -1,0 +1,43 @@
+_server_ 2025-12-05 13:56:13,764 INFO Запуск Telegram бота...
+_server_ 2025-12-05 13:56:40,124 INFO Пользователь 1102270185 запустил бота
+_server_ 2025-12-05 13:56:40,125 WARNING Перезагрузка программы
+_server_ 2025-12-05 13:56:46,337 INFO Переход в состояние выбора метода ввода
+_server_ 2025-12-05 13:56:46,337 INFO Переход в состояние: input
+_server_ 2025-12-05 13:56:59,882 INFO Пользователь 1102270185 ввел данные: aa 1
+_server_ 2025-12-05 13:57:01,941 ERROR Ошибка при состоянии input. Ошибка: Нет исходных данных.
+Traceback (most recent call last):
+  File "C:\Users\ivava\Desktop\Technology and theory of programming\chat-bot\state_machine.py", line 84, in _computing
+    raise Exception("Нет исходных данных.")
+Exception: Нет исходных данных.
+_server_ 2025-12-05 13:57:01,949 WARNING Перезагрузка программы
+_server_ 2025-12-05 13:57:01,950 INFO Переход в состояние: computing
+_server_ 2025-12-05 13:57:11,452 ERROR Ошибка при состоянии computing. Ошибка: Не выполнена стадия шифрования.
+Traceback (most recent call last):
+  File "C:\Users\ivava\Desktop\Technology and theory of programming\chat-bot\state_machine.py", line 68, in _res
+    raise Exception("Не выполнена стадия шифрования.")
+Exception: Не выполнена стадия шифрования.
+_server_ 2025-12-05 13:57:11,453 WARNING Перезагрузка программы
+_server_ 2025-12-05 13:57:11,454 INFO Переход в состояние: result
+_server_ 2025-12-05 13:57:24,742 INFO Переход в состояние выбора метода ввода
+_server_ 2025-12-05 13:57:24,742 INFO Переход в состояние: input
+_server_ 2025-12-05 13:57:26,304 INFO Переход в состояние выбора метода ввода
+_server_ 2025-12-05 13:57:26,304 INFO Переход в состояние: input
+_server_ 2025-12-05 13:57:28,632 ERROR Ошибка при состоянии input. Ошибка: Нет исходных данных.
+Traceback (most recent call last):
+  File "C:\Users\ivava\Desktop\Technology and theory of programming\chat-bot\state_machine.py", line 84, in _computing
+    raise Exception("Нет исходных данных.")
+Exception: Нет исходных данных.
+_server_ 2025-12-05 13:57:28,633 WARNING Перезагрузка программы
+_server_ 2025-12-05 13:57:28,633 INFO Переход в состояние: computing
+_server_ 2025-12-05 13:57:32,653 ERROR Ошибка при состоянии computing. Ошибка: Не выполнена стадия шифрования.
+Traceback (most recent call last):
+  File "C:\Users\ivava\Desktop\Technology and theory of programming\chat-bot\state_machine.py", line 68, in _res
+    raise Exception("Не выполнена стадия шифрования.")
+Exception: Не выполнена стадия шифрования.
+_server_ 2025-12-05 13:57:32,655 WARNING Перезагрузка программы
+_server_ 2025-12-05 13:57:32,656 INFO Переход в состояние: result
+_server_ 2025-12-05 13:57:34,575 INFO Переход в состояние: destructor
+_server_ 2025-12-05 13:59:51,429 INFO Пользователь 1102270185 запустил бота
+_server_ 2025-12-05 13:59:51,430 WARNING Перезагрузка программы
+_server_ 2025-12-05 13:59:53,895 WARNING Невозможно выполнить 'result' в состоянии 'initialization'
+_server_ 2025-12-05 14:00:22,276 INFO Переход в состояние: destructor
