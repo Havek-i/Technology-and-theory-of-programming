@@ -3,7 +3,8 @@ import tracemalloc
 from typing import List, Tuple
 
 global GLOBAL_COUNTER
-# ========== НЕЭФФЕКТИВНАЯ ФУНКЦИЯ ==========
+
+# Неэффективная функция
 def process_data_inefficient(data: List[int]) -> Tuple[List[int], int, List[Tuple[int, int]]]:
     """
     Неэффективная обработка данных с использованием:
@@ -49,7 +50,7 @@ def process_data_inefficient(data: List[int]) -> Tuple[List[int], int, List[Tupl
     
     return even_numbers, GLOBAL_COUNTER, indexed_data
 
-# ========== ЭФФЕКТИВНАЯ ФУНКЦИЯ ==========
+# Эффективная функция
 def process_data_efficient(data: List[int]) -> Tuple[List[int], int, List[Tuple[int, int]]]:
     """
     Эффективная обработка данных с использованием:
@@ -120,15 +121,6 @@ def measure_performance(func, data: List[int], func_name: str):
     
     return end_time - start_time, peak, result
 
-def cleanup():
-    """Очистка временных файлов"""
-    import os
-    try:
-        if os.path.exists("temp_test_file.txt"):
-            os.remove("temp_test_file.txt")
-    except:
-        pass
-
 # Функция запуска
 def main():
     """Основная функция для сравнения производительности"""
@@ -137,9 +129,6 @@ def main():
     
     # Генерация тестовых данных
     test_data = generate_test_data(5000)
-    
-    # Очистка перед началом
-    cleanup()
     
     # Тестирование неэффективной функции
     time_ineff, mem_ineff, result_ineff = measure_performance(
@@ -174,9 +163,7 @@ def main():
     
     print(f"{'Время (мс)':<25} {time_ineff*1000:<15.4f} {time_eff*1000:<15.4f} {time_ineff/time_eff:>9.1f}x")
     print(f"{'Память (КБ)':<25} {mem_ineff/1024:<15.2f} {mem_eff/1024:<15.2f} {mem_ineff/mem_eff:>9.1f}x")
-    
-    # Очистка
-    cleanup()
+
 
 if __name__ == "__main__":
     main()
